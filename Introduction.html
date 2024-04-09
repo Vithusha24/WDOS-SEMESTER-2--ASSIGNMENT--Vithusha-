@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Wildlife Introduction</title>
+</head>
+ <body>
+  <script src="introdution.js"></script>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf92Q2OPFVphj6n-RBKNDJCeEgcxaqQf5SjjRte3wQkw&s" class="logo">
+   <nav>
+     <ul>
+       <li><a href="index.html">Home </a></li>
+       <li><a class="active" href="Introduction.html">Introduction </a></li>
+       <li><a href="Conservation.html">Conservation</a></li>
+       <li><a href="Leopard.html">Leopard </a></li>
+       <li><a href="Animal.html">Animals </a>
+           <ul class="dropdown">
+              <li><a href="Yala.html">Yala National Park</a></li>
+               <li><a href="Wilpattu.html">Wilpattu National Park</a></li>
+           </ul>
+        </li>
+      </ul>
+    </nav>
+    <a href="Login.html" class="login-button">Login</a>
+  </header>
+  <main>
+  <div class="video-container">
+    <video class="video-background" autoplay muted loop>
+      <source src="images/pexels-anil-sharma-10503057 (1080p).mp4" type="video/mp4">
+    </video>
+  </div> <br><br>
+    <section>
+      <div class="headstyle">
+        <h1 id="title"></h1>
+  </div>
+    </section>
+<section>
+  <div class="container">
+    <div class="card">
+       <div class="img">
+          <img src="https://www.slncu.lk/web/images/Singharaja_Rain_Forest.jpg">
+       </div>
+       <div class="top-text">
+          <div class="name" id="sinharaja">
+              
+          </div>
+          
+       </div>
+       <div class="bottom-text">
+          <div class="text" id="intro">
+            
+             
+          </div>
+          
+       </div>
+    </div>
+    <div class="card">
+       <div class="img">
+          <img src="images/horton-plains-national.jpg">
+       </div>
+       <div class="top-text">
+          <div class="name"  id="park">
+            
+          </div>
+          
+       </div>
+       <div class="bottom-text">
+          <div class="text">
+            <p id="parks"></p>
+            
+          </div>
+       </div>
+    </div>
+    <div class="card">
+       <div class="img">
+          <img src="images/Kumana_National_Park_(Okanda).JPG">
+       </div>
+       <div class="top-text">
+          <div class="name" id="kumana">
+            
+          </div>
+       </div>
+       <div class="bottom-text">
+          <div class="text">
+            <p id="kumanadescription"></p>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="sub-section">
+  <h2>Locations</h2>
+
+  <div class="location">
+      <!-- Map 1 -->
+      <div class="location-item">
+          <h3>Sinharaja Reserve</h3>
+          <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.57913193333!2d80.39860740173869!3d6.421511303694683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1702842972115!5m2!1sen!2slk" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+      </div>
+
+      <!-- Map 2 -->
+      <div class="location-item">
+          <h3>Kumana</h3>
+          <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126834.97086213436!2d81.5168178972656!3d6.572959800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5c8b55f7156a3%3A0xce605bccbb80201a!2sKumana%20National%20Park!5e0!3m2!1sen!2slk!4v1702842878961!5m2!1sen!2slk"></iframe>
+          </div>
+      </div>
+
+      <!-- Map 3 -->
+      <div class="location-item">
+          <h3>Horton Plains National Park</h3>
+          <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837499546!3d6.809445993188088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1702842625353!5m2!1sen!2slk"></iframe>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+      <section class="wildlife-encounters">
+        <h2>Animal Spotlight</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Animal</th>
+              <th>Interesting Fact</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="names"></td>
+              <td id="introduction"></td>
+              <td><img src="images/leo.jpg" alt="Sri Lankan leopard, Sri Lanka"></td>
+            </tr>
+            <tr>
+              <td id="elephant"></td>
+              <td id="elephantintro"></td>
+              <td><img src="images/elephant.jpg" alt="Asian elephant, Sri Lanka"></td>
+            </tr>
+            <tr>
+              <td id="bird"></td>
+              <td id="birdintro">
+
+              </td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sri_Lanka_grey_hornbill_%28Ocyceros_gingalensis%29.jpg/1200px-Sri_Lanka_grey_hornbill_%28Ocyceros_gingalensis%29.jpg" alt="Sri Lankan hornbill, Sri Lanka"></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">This is just a small selection of Sri Lanka's diverse wildlife. Many more fascinating creatures await your discovery!</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </div>
+</section>
+  </main>
+ </body>
+<footer>
+    
+        <div class="cright">
+            <p>Copyright &copy; 2023 Srilanka Wild Life <br><br>Designed by Vithusha</p>
+        </div>
+    
+</footer>
+</html>
+
+

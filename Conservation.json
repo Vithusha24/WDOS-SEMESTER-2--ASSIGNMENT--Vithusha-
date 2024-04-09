@@ -1,0 +1,58 @@
+{
+    "div": {
+       "class": "hh1",
+       "h1": "Department of wild life conservation"
+    },
+    "sections": [
+       {
+         "class": "index",
+         "div": {
+           "class": "main",
+           "section": {
+             "class": "wildlife-bg",
+             "h2": {
+               "class": "m-title",
+               "text": "Introduction of wild life department"
+             },
+             "p": {
+               "class": "intro",
+               "text": "The Wildlife Department of Sri Lanka (DWC) is in charge of managing and conserving wild animals and their habitats, as well as being the guardian of the amazing natural heritage of the nation. The DWC, which was founded in 1949, is essential to preserving Sri Lanka's amazing biodiversity."
+             }
+           }
+         }
+       },
+       {
+         "class": "gallery",
+         "h2": "Protected Areas",
+         "div": {
+           "class": "flex-container",
+           "div": [
+             {
+               "class": "gallery-item",
+               "p": "Wasgamuwa National Park"
+             },
+             {
+               "class": "gallery-item",
+               "p": "Kumana National Park"
+             },
+             {
+               "class": "gallery-item",
+               "p": "Horton Plains National Park"
+             },
+             {
+               "class": "gallery-item",
+               "p": "Gal Oya National Park"
+             },
+             {
+               "class": "gallery-item",
+               "p": "Bundala National Park"
+             },
+             {
+               "class": "gallery-item",
+               "p": "Minneriya National"
+             }
+           ]
+         }
+       }
+    ]
+}

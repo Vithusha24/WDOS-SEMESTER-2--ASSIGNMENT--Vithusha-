@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .container {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #070707;
+    color: rgb(84, 86, 83);
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #0c0c0c;
+  }
+  
+  #message {
+    color: red;
+  }
+
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV8zM19waG90b19vZl9hX3dpbGRsaWZlX3dpbGRsaWZlX3Bob3RvZ3JhcGh5X3dhbF8wYTQwZDBlNC0yNmRlLTQ3YzUtOWViOC04NjE1Mjc1MjY5Y2RfMS5qcGc.jpg") no-repeat;
+    background-size: cover ;
+    background-position: center;
+}

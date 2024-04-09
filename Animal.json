@@ -1,0 +1,46 @@
+{
+    "animals": [
+       {
+         "name": "Jungle Fowl",
+         
+         "description": "Cloaked in the emerald embrace of Southeast Asian rainforests, jungle fowl strut a vibrant dance of life. Dazzling roosters, adorned with fiery combs and wattles."
+       },
+       {
+         "name": "Deer",
+         
+         "description": "Deer are elegant and graceful mammals belonging to the family Cervidae, which includes a variety of species such as white-tailed deer, mule deer, elk, and moose."
+       },
+       {
+         "name": "King-fisher",
+         
+         "description": "Kingfishers are a fascinating family of birds known for their vibrant colors, distinctive appearance, and remarkable hunting skills."
+       },
+       {
+         "name": "Blue Bird",
+         
+         "description": "Bluebirds, with their enchanting azure plumage and gentle demeanor, are a captivating group of birds that belong to the thrush family, Turdidae."
+       },
+       {
+         "name": "Elephant",
+         
+         "description": "Elephants, revered for their immense size, intelligence, and social complexity, are iconic mammals belonging to the family Elephantidae."
+       },
+       {
+         "name": "King Vulture",
+         
+         "description": "The King Vulture possesses a predominantly white plumage with contrasting black flight feathers and tail, while its head and neck are adorned with vivid hues of orange, red, and yellow."
+       }
+    ],
+    "nationalParks": [
+       {
+         "name": "Yala National Park",
+         "description": "This sprawling park in the south is famous for its diverse wildlife, including leopards, elephants, and crocodiles. Guided safaris offer excellent opportunities to observe these creatures in their natural habitat.",
+         "link": "Learn more about Wilpattu National Park"
+       },
+       {
+         "name": "Wilpattu National Park",
+         "description": "Located in the northwest, Wilpattu boasts one of the highest leopard densities in the world. Explore its vast dry season tanks and dense forests on a jeep safari to catch a glimpse of these elusive predators.",
+         "link": "Learn more about Yala National Park"
+       }
+    ]
+   }

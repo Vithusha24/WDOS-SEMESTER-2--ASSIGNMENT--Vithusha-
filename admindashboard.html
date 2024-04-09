@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="admindashboard.css">
+</head>
+<body>
+  
+  <div class="main-content">
+    <p>Welcome to your Admin dashboard!</p>
+  </div>
+  <ul id="NewsLetterSubscriptions">
+
+  </ul>
+  <script>
+    // Retrieve newsletter subscriptions from local storage
+    var NewsLetterSubscriptions = JSON.parse(localStorage.getItem('news_subscription_form')) || [];
+
+    // Reference to the UL element to render subscriptions
+    var newsletterList = document.getElementById('NewsLetterSubscriptions');
+
+    // Render the subscriptions
+    NewsLetterSubscriptions.forEach(function(subscription) {
+        var li = document.createElement('li');
+        li.textContent = subscription;
+        newsletterList.appendChild(li);
+    });
+  </script>
+</body>
+</html>

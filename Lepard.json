@@ -1,0 +1,86 @@
+{
+ "body": {
+         "div": {
+             "class": "hh1",
+             "h1": "Sri Lankan Leopard"
+         },
+         "section": [
+             {
+                 "class": "wildlife-locations",
+                 "h2": {
+                    "class": "m-title",
+                    "text": "Exploring the Hidden Leopards of Sri Lanka"
+                 },
+                 "p": {
+                    "class": "intro",
+                    "text": "A tantalising mystery exists in the brilliant patchwork of Sri Lanka, beneath the dappled cover of ancient forests and over sun-drenched fields: the Sri Lankan leopard. The island nation is home to these strange meat eaters, who are covered in a symphony of spots and hidden in mystery. Unlike their famous African cousins, Sri Lankan leopards hunt quietly across grasslands and weave through unbreakable jungles, their presence a whisper in the wind, only visible in the twilight."
+                 }
+             },
+             
+             {
+                 "class": "leopard-threats",
+                 "div": [
+                    {
+                         "class": "threat-box",
+                         "h3": "Loss of Habitat: Reduced Reserve",
+                         "p": "Habitat fragmentation due to deforestation cuts off leopard populations, reducing prey availability and increasing human-wildlife conflict. **Solutions:** Expanding protected areas, creating wildlife corridors, promoting sustainable farming and forestry practices, educating communities about the importance of leopard conservation.",
+                         "a": {
+                             "href": "https://www.slwcs.org/"
+                         }
+                    },
+                    {
+                         "class": "threat-box",
+                         "h3": "Hunting: An Ongoing Risk",
+                         "p": "Poaching for skin and body parts for traditional medicine continues to threaten leopards. **Solutions:** Strengthening wildlife law enforcement, using camera traps and patrolling by rangers, community outreach programs to address cultural beliefs and alternative income sources, working with traditional medicine practitioners to promote sustainable alternatives.",
+                         "a": {
+                             "href": "https://www.wwct.org/"
+                         }
+                    },
+                    {
+                         "class": "threat-box",
+                         "h3": "How we protect",
+                         "p": "In summary, protecting Sri Lankan leopard habitats involves a blend of conservation measures and community engagement. Key actions include establishing and maintaining protected areas, creating wildlife corridors to connect fragmented habitats, implementing community-based conservation initiatives, enforcing strict land-use planning regulations, and supporting reforestation programs. These collective efforts aim to mitigate habitat loss threats and promote a sustainable coexistence between humans and Sri Lankan leopards, safeguarding the future of this iconic species.",
+                         "a": {
+                             "href": "https://www.wwct.org/"
+                         }
+                    }
+                 ]
+             },
+             {
+                 "class": "threats",
+                 "div": [
+                    {
+                         "class": "threat",
+                         "h2": "Threat: Habitat Loss",
+                         "p": [
+                             "Habitat loss due to deforestation and human encroachment is a significant threat to leopard populations. It leads to fragmentation of their habitat, making it difficult for leopards to find suitable prey and mates.",
+                             "Consequences include a decline in leopard numbers and an increase in human-leopard conflicts. To reduce this threat, conservation efforts focus on habitat restoration, protected area management, and community engagement."
+                         ],
+                         "a": {
+                             "href": "https://www.leopardconservation.lk/"
+                         }
+                    },
+                    {
+                         "class": "threat",
+                         "h2": "Threat: Illegal Wildlife Trade",
+                         "p": [
+                             "Illegal wildlife trade poses a serious threat to leopards, with their skins, bones, and other body parts being sought after in black markets. This trade not only decimates leopard populations but also disrupts ecosystems and fuels organized crime.",
+                             "To combat this threat, efforts are made to strengthen law enforcement, raise awareness about the consequences of wildlife trade, and support community-based conservation initiatives."
+                         ],
+                         "a": {
+                             "href": "https://www.wildlifetrustofsrilanka.org/"
+                         }
+                    },
+                    {
+                         "class": "threat",
+                         "h2": "How We Protect",
+                         "p": "Efforts to mitigate human-leopard conflict involve a combination of proactive measures and community engagement. Community awareness and education initiatives play a crucial role in informing local residents about leopard behavior, promoting coexistence strategies, and emphasizing the importance of these big cats in maintaining ecological balance. Implementing secure livestock enclosures, early warning systems, and compensation programs for affected farmers are practical measures to reduce conflicts and foster tolerance.",
+                         "a": {
+                             "href": "https://www.wildlifetrustofsrilanka.org/"
+                         }
+                    }
+                 ]
+             }
+         ]
+    }
+   }

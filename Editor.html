@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Editor</title>
+<link rel="stylesheet" type="text/css" href="Editor.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Select Page:</h2>
+  <select id="dropdown" class="selection">
+    <option value="index">Home</option>
+    <option value="Introduction">Introduction</option>
+    <option value="Conservation">Department</option>
+    <option value="Leopard">Leopard</option>
+    <option value="Animal">Animal</option>
+    <option value="Yala">Yala</option>
+    <option value="Wilpattu">Wilapattu</option>
+  </select><br>
+  <button id="select">SELECT PAGE</button>
+  <button id="save">SAVE CHANGES</button>
+
+  <br><br><br>
+
+  <textarea id="editor" class="textarea" rows="4" placeholder="Enter text here..."></textarea>
+  <script src="Editor.js" defer></script> <!-- This line was missing -->
+</div>
+
+</body>
+</html>

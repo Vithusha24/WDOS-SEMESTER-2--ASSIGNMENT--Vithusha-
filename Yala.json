@@ -1,0 +1,16 @@
+{
+    "yala": {
+       "introduction": {
+         "title": "Introduction of Yala National Park",
+         "content": "Yala National Park, situated in the southeastern corner of Sri Lanka, stands as a testament to the island nation's rich biodiversity and natural beauty. Established in 1900 as a Game Sanctuary, Yala has evolved into one of the most renowned and visited national parks in the country. Spanning over 979 square kilometers, the park encompasses a diverse range of ecosystems, including dense forests, grasslands, and wetlands, providing a haven for a remarkable array of flora and fauna."
+       },
+       
+       "conservation": {
+         "title": "Conservation Commitments",
+         "content": "Yala National Park in Sri Lanka, home to the Sri Lankan leopard, is experiencing overcrowding, threatening both the park's fauna and revenue. Visitation to the park climbed from 43,368 in 2008 to 545,007 in 2015, representing a 1000% increase in seven years. This has resulted in an average of 250 automobiles entering Yala Block 1 per day, with higher numbers during the holiday season. To address this over-visitation, the Prime Minister's office formed the 'Yala Sub-Committee' to develop a long-term management strategy. The key stakeholders in this Sub-Committee are the Department of Wildlife Conservation and the Tourist Board. In March 2017, an action plan for improving the wildlife tourism experience in Yala National Park was developed, which included short-term, medium-term, and long-term initiatives. The strategy calls for wildlife conservation, anti-poaching measures, habitat restoration, community involvement, research and monitoring, and tourism management. The goal is to reduce tourism's environmental impact while allowing visitors to appreciate and learn about the park's natural features.",
+         "intro":"The strategy calls for wildlife conservation, anti-poaching measures, habitat restoration, community involvement, research and monitoring, and tourism management.The goal is to reduce tourism's environmental impact while allowing visitors to appreciate and learn about the park's natural features." 
+         
+       }     
+       
+    }
+   }

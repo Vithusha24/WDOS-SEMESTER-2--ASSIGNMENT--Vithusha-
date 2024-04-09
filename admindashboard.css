@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.wallpaperscraft.com/image/single/red_panda_wildlife_leaves_272648_3840x2400.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-content {
+  text-align: center;
+  margin-top: 50vh; /* Vertically center the content */
+  transform: translateY(-50%);
+  color: #f8efef; /* Text color */
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 1px; ;
+}
+
+#NewsLetterSubscriptions {
+  list-style-type: none;
+  padding: 10;
+  color: #ddd;
+  font-size: x-large;
+  font-weight: 200;
+  text-align: center;
+}
+
+#NewsLetterSubscriptions li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+#NewsLetterSubscriptions li:last-child {
+  border-bottom: none;
+}

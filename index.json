@@ -1,0 +1,64 @@
+{
+    "header": {
+        "logo": "https://www.bradtguides.com/wp-content/uploads/2021/02/9781841621746.jpg",
+        "navItems": [
+            { "text": "Home", "link": "index.html" },
+            { "text": "Introduction", "link": "Introduction.html" },
+            { "text": "Conservation", "link": "Conservation.html" },
+            { "text": "Leopard", "link": "Leopard.html" },
+            {
+                "text": "Animals",
+                "link": "#",
+                "dropdown": [
+                    { "text": "Yala National Park", "link": "Yala.html" },
+                    { "text": "Wilpattu National Park", "link": "Wilpattu.html" }
+                ]
+            }
+        ],
+        "loginLink": "Login.html"
+    },
+    "mainContent": {
+        "intro": {
+            
+            "title": "Wild Life",
+            "description": "Discover the varied wildlife refuge of Sri Lanka, home to colourful birds, shy leopards, and majestic elephants. Take a mesmerising trip through the wonders of nature and lose yourself in the beauty of our untamed environment."
+        },
+        "sections": [
+            {
+                "title": "Langur",
+                 "description": "A subspecies of Old World monkeys known as langurs are members of the Cercopithecoidea family. South Asia, which includes Bangladesh, Nepal, Bhutan, India, and Sri Lanka, is home to these monkeys. Their slim bodies, long tails, and frequently colorful fur define them."
+            },
+            {
+                "title": "Loris",
+                "description": "Small, nocturnal primates found in Africa and Asia are called lorises. Large eyes, thick fur, and a slow, methodical gait make lorises ideal for environments found in trees. Their primary source of food is insects, along with spiders and tree gums. Conservation activities are essential to their survival because they are facing dangers such as habitat loss and illegal trading."
+            },
+            {
+                "title": "Lily",
+                "description": "Lily flowers are members of the genus Lilium and are distinguished by their graceful, trumpet-shaped blooms. There are many different species and hybrids of these perennial plants, and they all have distinctive hues, forms, and scents. Long, thin stems and striking six-petaled blossoms are characteristics of lilies. They are popular attractive plants for gardens and flower arrangements, and they grow well in a variety of climates."
+            }
+        ],
+        "otherAttractions": {
+            "title": "Other Attractions",
+            "points": [
+                "Explore diverse habitats from beaches to mountains.",
+                 "Witness unique wildlife interactions and behaviors.",
+                  "Support responsible tourism and conservation efforts."
+            ],  
+            
+            "planning": [
+                "Plan your safari adventure.",
+                "Pack essential gear for wildlife viewing.",
+                "Respect wildlife and their habitat."
+            ]
+        }
+    },
+    "contact": {
+        "title": "contact us",
+        "formAction": "index.html"
+    },
+    "copyright": {
+        "text": "Copyright &copy; 2023 Srilanka Wild Life. Designed by Vithusha"
+    }
+}
+
+

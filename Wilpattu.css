@@ -1,0 +1,330 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #090909;
+}
+
+header {
+  position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1px 20%;
+    background:rgba(17, 16, 16, 0.409);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+  display: flex;
+  margin-top: 10px;
+}
+/* Style for the unordered list of links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:inline-flex;
+}
+
+nav li {/* Style for each list item */
+  margin: 0 20px;
+}
+nav a { /* Style for each link */
+  text-decoration: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f9f1f1;
+  font-weight: bold;
+  font-size:larger;
+  position: relative;
+}
+nav a:hover{
+  color: beige;
+}
+nav ul li .dropdown {
+  display:grid;
+  justify-content:space-between;
+  align-items: center;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 0%;
+}
+/* Style for each dropdown item */
+nav ul li .dropdown li{
+  display: none;
+  position: relative;
+  margin-left: -30px;
+  padding: 5px;
+}
+nav ul li:hover .dropdown li {  /* Display dropdown items on hover */
+  position:relative;
+  display:flex;
+}
+nav ul li .dropdown li a:hover{
+  color:beige; /* Change color of dropdown item on hover */
+} 
+.active{
+color:rgb(255, 255, 255);
+}
+.logo {
+  width: 100px;
+  height:120px;
+  margin-top: -35px;
+
+}
+.topimage {
+    position: relative;
+    text-align: center;
+    color: #bab266;
+}
+#img-bg{
+    width: 95%;
+    height: auto;
+    display:grid;
+    margin-top:15px;
+    margin-left: 30px;
+
+}
+.hh1{
+    display:grid;
+    position: relative;
+    margin-top:-620px;
+    font-size:50px;
+    color: #fcfafa;
+    text-align: center;
+
+}
+/* Basic styling */
+
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cab68d;
+    }
+  
+  .anim{
+    background-color:#cab68d00;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  /* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-bar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav .nav-bar li {
+      margin: 0;
+      margin-bottom: 10px;
+  }
+
+  .hh1 {
+      font-size: 20px;
+      margin-top: -20px;
+  }
+}
+  
+  
+  
+  /* Animations 
+  .main-image img {
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Add more animations as desired */
+/* Basic styling */
+.margin {
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.in-wild {
+  font-size: 16px; /* Adjust for readability */
+  line-height: 1.5; /* For comfortable reading */
+  text-align: justify; /* Optional for visual appeal */
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .margin {
+    margin: 10px 0; /* Adjust margins for smaller screens */
+  }
+  .in-wild {
+    font-size: 14px; /* Slightly smaller font for mobile */
+  }
+}
+.in-to{
+  margin-top: 550px;
+}
+  
+  
+  
+  .margin{
+    text-align: center;
+  }
+  .in-wild {
+    text-align: center;
+    font-size: 25px;
+  }
+  .main-in{
+    color: #151414;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+  div.gallery {
+    margin-top: 30px;
+  }
+  
+  div.gallery ul {
+    list-style-type: none;
+    margin-left: 35px;
+  }
+  
+  /* animation */
+  div.gallery ul li, div.gallery li img {
+    -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+  }
+  
+  div.gallery ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    z-index: 0;
+  }
+  
+  /* Make sure z-index is higher on hover */
+  /* Ensure that hover image overlapped the others */
+  div.gallery ul li:hover {
+    z-index: 5;
+  }
+  
+  /* Image is position nicely under li */
+  div.gallery ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    width: 230px;
+    height: 230px;
+    background: #f0f0f0;
+  }
+  
+  div.gallery ul li img:hover {
+    width: 200px;
+    height: 200px;
+    margin-top: -130px;
+    margin-left: -130px;
+    top: 65%;
+    left: 65%;
+  }
+  
+    
+  
+  /* Responsive hack */
+  @media only screen and (min-width: 499px) and (max-width: 1212px) {
+    .wrapper {
+      width: 500px;
+    }
+  }
+  
+  @media only screen and (max-width: 498px) {
+    .wrapper {
+      width: 300px;
+    }
+  
+    div.gallery ul {
+      list-style-type: none;
+      margin: 0;
+    }
+  }
+.head{
+  border: 10px solid black;
+  padding: 10px;
+  width: 35%; /* Set box to half the width of its parent */
+  text-align: center; /* Center the heading text */
+  margin: 0 auto; /* Automatically center the box horizontally */
+  text-align: center;
+  color: #bebeb9;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+  }
+  .cright {
+    background-color:#C2B280;
+    padding: 40px;
+    text-align: center;
+    width: 94.2%;
+    margin-top: 220px;
+}
+.description{
+  margin-top: 350px;
+  text-align: center;
+  font-size: 20px;
+}
+.description h2, .margin{
+  font-family: serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.description p{
+  margin-top: 20px;
+  line-height: 1.6em
+}
+  
+  
+  
+  
+  
